@@ -1,0 +1,33 @@
+<canvas id="e" width="1024" height="128"></canvas>
+<script>
+  var canvas = document.getElementById("e");
+  var context = canvas.getContext("2d");
+  context.fillStyle = "black";
+  context.font = "bold 32px namco regular";
+  
+  x = 0;
+  ls = "abcdefghijklmnop";
+  for(c in ls)
+  {
+    context.fillText(ls[c], x, 32);
+    x += 64;
+  }
+  
+  x = 0;
+  ls = "qrstuvwxyz012345";
+  for(c in ls)
+  {
+    context.fillText(ls[c], x, 32+40);
+    x += 64;
+  }
+
+  x = 0;
+  ls = "6789!?";
+  for(c in ls)
+  {
+    context.fillText(ls[c], x, 32+40*2);
+    x += 64;
+  }
+
+
+  </script>
