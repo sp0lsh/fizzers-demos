@@ -1,0 +1,21 @@
+# Blender MTL File: 'retro.blend'
+# Material Count: 2
+
+newmtl Game_Boy
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd images\Game Boy 2.png
+
+newmtl Game_Boy_Underneath
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.359232 0.359719 0.389516
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2

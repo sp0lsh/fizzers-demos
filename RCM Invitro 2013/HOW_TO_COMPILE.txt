@@ -1,0 +1,12 @@
+This demo was made using the Code::Blocks IDE: http://www.codeblocks.org/
+
+Compile it with GCC.
+
+The Code::Blocks project file is "loopsubdiv.cbp".
+
+The following libraries are needed:
+	SDL 1.2 https://www.libsdl.org/download-1.2.php
+	DevIL http://openil.sourceforge.net/
+	BASS https://www.un4seen.com/bass.html
+
+gl3w is included for loading OpenGL on Windows
